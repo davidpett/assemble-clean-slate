@@ -113,6 +113,7 @@ module.exports = function (grunt) {
         assemble: {
             options: {
                 flatten: true,
+                content: '<%= config.app %>/template/content',
                 data: '<%= config.app %>/template/data/**/*.json',
                 layout: 'default.hbs',
                 layoutdir: '<%= config.app %>/template/layouts',
