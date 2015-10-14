@@ -1,0 +1,9 @@
+{
+  "name": "assemble-clean-slate",
+  "private": true,
+  "dependencies": {
+    "modernizr": "2.8.3"
+  },
+  "devDependencies": {},
+  "version": "0.0.1"
+}
